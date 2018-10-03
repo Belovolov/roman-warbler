@@ -1,0 +1,33 @@
+.navbar-my {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(180deg, rgb(240,240,240), rgb(200,200,200));
+    align-items: center;
+    padding: 1vw;
+}
+.navbar-brand-my  {
+    text-decoration: none;
+    color: black;
+    font-family: 'Verdana';
+    font-weight: bold;
+}
+.navbar-nav-my {
+    margin-bottom: 0;
+}
+
+.nav-item-my {
+    display: inline;
+    margin-right: 1em;
+}
+.nav-link-my {
+    text-decoration: none;
+    color: black;
+    font-family: 'Verdana';
+    cursor: pointer;
+}
+.nav-link-my:hover {
+    text-decoration: underline;
+}
+.active {
+    font-weight: bold;
+}

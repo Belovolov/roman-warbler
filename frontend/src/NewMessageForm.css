@@ -1,0 +1,32 @@
+.new-message-modal {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new-message-curtain {
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+}
+.new-message-form {
+    z-index: 2;
+    border-radius: 10px;
+    flex-basis: 50%;
+    padding: 10px;
+    background-color: white;
+}
+.new-message-form__buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+.new-message-form__buttons button {
+    margin-left: 1vw;
+}

@@ -1,0 +1,12 @@
+.fadeout {
+    opacity: 1; 
+    animation: alert-fade-out 1s 2s forwards;
+}
+@keyframes alert-fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
